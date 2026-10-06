@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 01 - Pemrograman Web</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #ffffff;
+            padding: 20px;
+        }
+
+        /* Bingkai terluar biru sesuai dengan gambar tugas */
+        .outer-box {
+            border: 2px solid #5b9bd5;
+            padding: 10px;
+            display: inline-block;
+            background-color: #ffffff;
+        }
+
+        /* Styling tabel */
+        table {
+            border-collapse: separate;
+            border-spacing: 2px;
+            width: 700px;
+            color: #000000;
+        }
+
+        th.title {
+            background-color: #ffcb9b;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            padding: 8px;
+            letter-spacing: 0.5px;
+        }
+
+        td.cell-image {
+            background-color: #fffe99;
+            text-align: center;
+            vertical-align: middle;
+            width: 190px;
+            padding: 12px;
+        }
+
+        td.cell-image img {
+            width: 175px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        td.cell-label {
+            background-color: #00fe67;
+            font-size: 16px;
+            width: 85px;
+            padding: 8px;
+            vertical-align: middle;
+            line-height: 1.3;
+        }
+
+        td.cell-value {
+            background-color: #ff65ff;
+            font-size: 16px;
+            padding: 8px 12px;
+            vertical-align: middle;
+        }
+
+        td.cell-value ul {
+            margin: 0;
+            padding-left: 24px;
+        }
+
+        td.cell-value ul li {
+            margin-bottom: 3px;
+            line-height: 1.35;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Kotak luar bergaris biru (sesuai tampilan di gambar) -->
+    <div class="outer-box">
+        <table border="2" cellpadding="6" cellspacing="2">
+            <!-- Baris 1: Header Judul -->
+            <tr>
+                <th colspan="3" class="title" bgcolor="#ffcb9b">DAFTAR PRODUK</th>
+            </tr>
+
+            <!-- Baris 2: Gambar, Nama Produk, dan Nilai -->
+            <tr>
+                <td rowspan="3" class="cell-image" bgcolor="#fffe99" align="center">
+                    <img src="canon.jpg" alt="Canon EOS M10 Kit EF-M 15-45mm">
+                </td>
+                <td class="cell-label" bgcolor="#00fe67">Nama<br>Produk</td>
+                <td class="cell-value" bgcolor="#ff65ff">Canon EOS M10 Kit EF-M 15-45mm</td>
+            </tr>
+
+            <!-- Baris 3: Harga -->
+            <tr>
+                <td class="cell-label" bgcolor="#00fe67">Harga</td>
+                <td class="cell-value" bgcolor="#ff65ff">Rp 4,899,000</td>
+            </tr>
+
+            <!-- Baris 4: Fitur Produk -->
+            <tr>
+                <td class="cell-label" bgcolor="#00fe67">Fitur<br>Produk</td>
+                <td class="cell-value" bgcolor="#ff65ff">
+                    <ul>
+                        <li>Kamera mirrorless</li>
+                        <li>Efektifitas Piksel : 18 MP</li>
+                        <li>Tipe sensor : CMOS DIGIC 6</li>
+                        <li>Layar : 3.0 Inch</li>
+                        <li>Memiliki lampu flash dengan jarak jangkauan hingga 5 meter</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
