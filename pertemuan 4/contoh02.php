@@ -2,7 +2,7 @@
 $nim = "2203020157";
 $nama = "Abil Bilhaq";
 $mata_kuliah = "Pemrograman Web";
-$kelas="17250439";
+$kelas = "17250439";
 
 $umur = 19;
 $ipk = 3.75;
